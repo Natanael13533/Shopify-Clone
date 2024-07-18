@@ -6,19 +6,19 @@ from pydantic import model_validator
 from customer.models import Customer, Address
 
 class AddressIn(Schema):
-    customer_id: int
+    customer_id: Optional[int] = None
     address1: str
-    address2: Optional[str]
+    address2: Optional[str] = None
     city: str
     company: str
-    first_name: Optional[str]
-    last_name: Optional[str]
-    phone: Optional[str]
+    first_name: Optional[str] = None
+    last_name: Optional[str] = None
+    phone: Optional[str] = None
     province: str
     country: str
     zip: str
     name: Optional[str] = ''
-    default: bool
+    default: Optional[bool] = False
 
 class AddressOut(Schema):
     id: int
@@ -37,7 +37,10 @@ class AddressOut(Schema):
     default: bool
 
 class AddressRespon(Schema):
-    customer_address: List[AddressOut]
+    customer_address: AddressOut
+
+class AddressesRespon(Schema):
+    addresses: List[AddressOut]
 
 class CustomerOut(Schema):
     id: int
@@ -53,5 +56,40 @@ class CustomerOut(Schema):
     phone: str
     addresses: Optional[List[AddressOut]] = Field(alias='address_set')
 
+class CustomerIn(Schema):
+    email: str
+    first_name: str
+    last_name: str
+    state: str
+    verified_email: bool
+    send_email_welcome: bool
+    currency: str
+    phone: str
+    addresses: Optional[List[AddressIn]] = []
+
+class CustomerInUpdate(Schema):
+    email: Optional[str]
+    first_name: Optional[str]
+    last_name: Optional[str]
+    state: Optional[str]
+    verified_email: Optional[bool]
+    send_email_welcome: Optional[bool]
+    currency: Optional[str]
+    phone: Optional[str]
+    addresses: Optional[List[AddressOut]] = None
+
+def parse_query(query_str: str):
+    filters = {}
+    for param in query_str.split(','):
+        key, value = param.split(':')
+        filters[key] = value
+    return filters
+
 class CustomerRespon(Schema):
     customers: List[CustomerOut]
+
+class SingleCustomerRespon(Schema):
+    customer: CustomerOut
+
+class CountCustomer(Schema):
+    count: int

@@ -8,6 +8,9 @@ django.setup()
 import json
 from django.contrib.auth.models import User
 from customer.models import Customer, Address
+from property.models import Country, Province
+
+from decimal import Decimal
 
 filepath = './dummy_data/'
 
@@ -48,3 +51,27 @@ with open(filepath+'address.json') as jsonfile:
                                    phone=adr['phone'],
                                    zip=adr['zip'],
                                    default=adr['default'])
+
+with open(filepath+'country.json') as jsonfile:
+    countries = json.load(jsonfile)
+    for num, ctr in enumerate(countries):
+        countryExist = Country.objects.filter(id=num+1).first()
+        tax = Decimal(ctr['tax'])
+        if countryExist == None:
+            Country.objects.create(code=ctr['code'],
+                                   name=ctr['name'],
+                                   tax=tax,
+                                   tax_name=ctr['tax_name'])
+
+with open(filepath+'province.json') as jsonfile:
+    provinces = json.load(jsonfile)
+    for num, pro in enumerate(provinces):
+        provinceExist = Province.objects.filter(id=num+1).first()
+        tax = Decimal(pro['tax'])
+        if provinceExist == None:
+            Province.objects.create(country_id=pro['country'],
+                                   code=pro['code'],
+                                   name=pro['name'],
+                                   tax=tax,
+                                   tax_name=pro['tax_name'],
+                                   tax_type=pro['tax_type'])

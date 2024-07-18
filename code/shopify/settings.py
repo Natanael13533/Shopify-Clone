@@ -21,7 +21,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-tw!3q*y98gi#s$_g$gtv93ny-)y0g)qfkqqiez=repc2a19l8!'
 SECRET_KEY = str(os.environ.get("SECRET_KEY"))
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -40,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'customer',
+    'property',
     'silk',
     "ninja_simple_jwt",
 ]
@@ -79,24 +79,13 @@ WSGI_APPLICATION = 'shopify.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'shopify_clone_db',
-#         'USER': 'shopify_clone_user',
-#         'PASSWORD': 'shopify_clone_password',
-#         'HOST': 'shopify_clone_db',
-#         'PORT': 5536,
-#     }
-# }
-
 DATABASES = {
     "default": {
         "ENGINE": os.environ.get("SQL_ENGINE", "django.db.backends.sqlite3"),
-        "NAME": os.environ.get("SQL_DATABASE", "shopify_clone_db"),
-        "USER": os.environ.get("SQL_USER", "shopify_clone_user"),
-        "PASSWORD": os.environ.get("SQL_PASSWORD", "shopify_clone_password"),
-        "HOST": os.environ.get("SQL_HOST", "database"),
+        "NAME": os.environ.get("SQL_DATABASE", ""),
+        "USER": os.environ.get("SQL_USER", ""),
+        "PASSWORD": os.environ.get("SQL_PASSWORD", ""),
+        "HOST": os.environ.get("SQL_HOST", ""),
     }
 }
 

@@ -1,0 +1,2402 @@
+[
+	{
+		"country": 101,
+		"code": "ANC",
+		"name": "Peru",
+		"tax": "0.06",
+		"tax_name": "NV",
+		"tax_type": "normal"
+	},
+	{
+		"country": 32,
+		"code": "Stm.",
+		"name": "Austria",
+		"tax": "0.17",
+		"tax_name": "H",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 61,
+		"code": "WI",
+		"name": "United Kingdom",
+		"tax": "0.02",
+		"tax_name": "VGG",
+		"tax_type": "normal"
+	},
+	{
+		"country": 42,
+		"code": "VID",
+		"name": "Colombia",
+		"tax": "0.10",
+		"tax_name": "TAS",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 59,
+		"code": "SI",
+		"name": "New Zealand",
+		"tax": "0.12",
+		"tax_name": "WM",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 55,
+		"code": "NI",
+		"name": "New Zealand",
+		"tax": "0.07",
+		"tax_name": "GUA",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 60,
+		"code": "NI",
+		"name": "Germany",
+		"tax": "0.09",
+		"tax_name": "CAR",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 48,
+		"code": "BA",
+		"name": "Brazil",
+		"tax": "0.01",
+		"tax_name": "LAM",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 95,
+		"code": "WA",
+		"name": "Australia",
+		"tax": "0.18",
+		"tax_name": "Van",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 111,
+		"code": "Sin.",
+		"name": "Mexico",
+		"tax": "0.01",
+		"tax_name": "Jeju",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 77,
+		"code": "ST",
+		"name": "Germany",
+		"tax": "0.19",
+		"tax_name": "WM",
+		"tax_type": "normal"
+	},
+	{
+		"country": 58,
+		"code": "KT",
+		"name": "Indonesia",
+		"tax": "0.08",
+		"tax_name": "A",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 79,
+		"code": "NCR",
+		"name": "Philippines",
+		"tax": "0.03",
+		"tax_name": "WI",
+		"tax_type": "normal"
+	},
+	{
+		"country": 98,
+		"code": "Bgl.",
+		"name": "Austria",
+		"tax": "0.01",
+		"tax_name": "HE",
+		"tax_type": "null"
+	},
+	{
+		"country": 45,
+		"code": "MP",
+		"name": "South Africa",
+		"tax": "0.16",
+		"tax_name": "CE",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 114,
+		"code": "LIM",
+		"name": "Peru",
+		"tax": "0.03",
+		"tax_name": "X",
+		"tax_type": "null"
+	},
+	{
+		"country": 39,
+		"code": "Dōngběi",
+		"name": "China",
+		"tax": "0.07",
+		"tax_name": "Sóc Trăng",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 10,
+		"code": "MB",
+		"name": "Canada",
+		"tax": "0.03",
+		"tax_name": "WA",
+		"tax_type": "normal"
+	},
+	{
+		"country": 25,
+		"code": "Sin.",
+		"name": "Mexico",
+		"tax": "0.17",
+		"tax_name": "LAL",
+		"tax_type": "null"
+	},
+	{
+		"country": 113,
+		"code": "GP",
+		"name": "South Africa",
+		"tax": "0.18",
+		"tax_name": "RJ",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 5,
+		"code": "W",
+		"name": "Sweden",
+		"tax": "0.01",
+		"tax_name": "SR",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 87,
+		"code": "WB",
+		"name": "Belgium",
+		"tax": "0.19",
+		"tax_name": "regionII",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 116,
+		"code": "Bursa",
+		"name": "Turkey",
+		"tax": "0.07",
+		"tax_name": "IV",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 40,
+		"code": 38,
+		"name": "Norway",
+		"tax": "0.10",
+		"tax_name": "SI",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 8,
+		"code": "AU",
+		"name": "France",
+		"tax": "0.16",
+		"tax_name": "Gyeonggi",
+		"tax_type": "null"
+	},
+	{
+		"country": 78,
+		"code": "Saint Petersburg",
+		"name": "Russian Federation",
+		"tax": "0.17",
+		"tax_name": "Ninh Thuận",
+		"tax_type": "null"
+	},
+	{
+		"country": 138,
+		"code": "HE",
+		"name": "Belgium",
+		"tax": "0.13",
+		"tax_name": "W",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 4,
+		"code": "B.C.",
+		"name": "Mexico",
+		"tax": "0.13",
+		"tax_name": "SH",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 146,
+		"code": "XIV",
+		"name": "Chile",
+		"tax": "0.19",
+		"tax_name": "BEL",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 22,
+		"code": "SI",
+		"name": "Pakistan",
+		"tax": "0.07",
+		"tax_name": "50",
+		"tax_type": "normal"
+	},
+	{
+		"country": 42,
+		"code": "Balıkesir",
+		"name": "Turkey",
+		"tax": "0.05",
+		"tax_name": "LP",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 102,
+		"code": "NL",
+		"name": "Canada",
+		"tax": "0.12",
+		"tax_name": "Jeonbuk",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 80,
+		"code": "NI",
+		"name": "New Zealand",
+		"tax": "0.04",
+		"tax_name": "Istanbul",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 65,
+		"code": "VOR",
+		"name": "Russian Federation",
+		"tax": "0.06",
+		"tax_name": "Đồng Nai",
+		"tax_type": "normal"
+	},
+	{
+		"country": 46,
+		"code": "Coah.",
+		"name": "Mexico",
+		"tax": "0.09",
+		"tax_name": "NCR",
+		"tax_type": "null"
+	},
+	{
+		"country": 114,
+		"code": "AK",
+		"name": "Pakistan",
+		"tax": "0.17",
+		"tax_name": "X",
+		"tax_type": "null"
+	},
+	{
+		"country": 141,
+		"code": "NW",
+		"name": "Germany",
+		"tax": "0.04",
+		"tax_name": "SI",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 17,
+		"code": "VID",
+		"name": "Colombia",
+		"tax": "0.03",
+		"tax_name": "CDMX",
+		"tax_type": "null"
+	},
+	{
+		"country": 98,
+		"code": "LU",
+		"name": "Belgium",
+		"tax": "0.17",
+		"tax_name": "ON",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 144,
+		"code": "SK",
+		"name": "Poland",
+		"tax": "0.02",
+		"tax_name": "LB",
+		"tax_type": "normal"
+	},
+	{
+		"country": 137,
+		"code": "AB",
+		"name": "Canada",
+		"tax": "0.00",
+		"tax_name": "Bến Tre",
+		"tax_type": "normal"
+	},
+	{
+		"country": 27,
+		"code": "O",
+		"name": "Sweden",
+		"tax": "0.05",
+		"tax_name": "mimaropa",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 144,
+		"code": "NI",
+		"name": "Germany",
+		"tax": "0.06",
+		"tax_name": "BB",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 125,
+		"code": "BL",
+		"name": "Pakistan",
+		"tax": "0.01",
+		"tax_name": "34",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 7,
+		"code": "X",
+		"name": "Chile",
+		"tax": "0.13",
+		"tax_name": "MS",
+		"tax_type": "null"
+	},
+	{
+		"country": 104,
+		"code": "PNZ",
+		"name": "Russian Federation",
+		"tax": "0.01",
+		"tax_name": "III",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 46,
+		"code": "JK",
+		"name": "Indonesia",
+		"tax": "0.06",
+		"tax_name": "Wien",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 135,
+		"code": "LD",
+		"name": "Poland",
+		"tax": "0.03",
+		"tax_name": "WI",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 63,
+		"code": "SA",
+		"name": "Australia",
+		"tax": "0.01",
+		"tax_name": "CR",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 147,
+		"code": "Qro.",
+		"name": "Mexico",
+		"tax": "0.13",
+		"tax_name": "regionI",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 105,
+		"code": "PV",
+		"name": "Spain",
+		"tax": "0.07",
+		"tax_name": "U.",
+		"tax_type": "normal"
+	},
+	{
+		"country": 6,
+		"code": "DT",
+		"name": "Ukraine",
+		"tax": "0.17",
+		"tax_name": "SI",
+		"tax_type": "normal"
+	},
+	{
+		"country": 135,
+		"code": "BO",
+		"name": "Nigeria",
+		"tax": "0.18",
+		"tax_name": "SAN",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 131,
+		"code": "L",
+		"name": "Ireland",
+		"tax": "0.10",
+		"tax_name": "UT",
+		"tax_type": "null"
+	},
+	{
+		"country": 116,
+		"code": "U.",
+		"name": "Netherlands",
+		"tax": "0.19",
+		"tax_name": "SG-01",
+		"tax_type": "normal"
+	},
+	{
+		"country": 14,
+		"code": "Manisa",
+		"name": "Turkey",
+		"tax": "0.18",
+		"tax_name": "CAM",
+		"tax_type": "null"
+	},
+	{
+		"country": 7,
+		"code": "SAP",
+		"name": "Colombia",
+		"tax": "0.08",
+		"tax_name": "KZN",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 1,
+		"code": "MI",
+		"name": "France",
+		"tax": "0.02",
+		"tax_name": "JI",
+		"tax_type": "null"
+	},
+	{
+		"country": 70,
+		"code": "BY",
+		"name": "Germany",
+		"tax": "0.02",
+		"tax_name": "Mor.",
+		"tax_type": "normal"
+	},
+	{
+		"country": 57,
+		"code": "KPK",
+		"name": "Pakistan",
+		"tax": "0.00",
+		"tax_name": "WA",
+		"tax_type": "null"
+	},
+	{
+		"country": 28,
+		"code": "CO",
+		"name": "United Kingdom",
+		"tax": "0.01",
+		"tax_name": "AB",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 126,
+		"code": "LX",
+		"name": "Belgium",
+		"tax": "0.01",
+		"tax_name": "42",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 67,
+		"code": "GO",
+		"name": "Brazil",
+		"tax": "0.07",
+		"tax_name": "LX",
+		"tax_type": "normal"
+	},
+	{
+		"country": 8,
+		"code": "DE",
+		"name": "United States",
+		"tax": "0.00",
+		"tax_name": "CE",
+		"tax_type": "null"
+	},
+	{
+		"country": 131,
+		"code": "F",
+		"name": "Sweden",
+		"tax": "0.19",
+		"tax_name": "AL",
+		"tax_type": "normal"
+	},
+	{
+		"country": 78,
+		"code": "NT",
+		"name": "Canada",
+		"tax": "0.01",
+		"tax_name": "A",
+		"tax_type": "null"
+	},
+	{
+		"country": 12,
+		"code": "Sbg.",
+		"name": "Austria",
+		"tax": "0.18",
+		"tax_name": "XIV",
+		"tax_type": "normal"
+	},
+	{
+		"country": 52,
+		"code": "ARE",
+		"name": "Peru",
+		"tax": "0.12",
+		"tax_name": "SL",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 102,
+		"code": "regionI",
+		"name": "Philippines",
+		"tax": "0.09",
+		"tax_name": "PIU",
+		"tax_type": "normal"
+	},
+	{
+		"country": 40,
+		"code": "IL",
+		"name": "France",
+		"tax": "0.18",
+		"tax_name": "Huádōng",
+		"tax_type": "null"
+	},
+	{
+		"country": 14,
+		"code": "Antalya",
+		"name": "Turkey",
+		"tax": "0.04",
+		"tax_name": "N.L.",
+		"tax_type": "normal"
+	},
+	{
+		"country": 142,
+		"code": "Xīnán",
+		"name": "China",
+		"tax": "0.07",
+		"tax_name": "HA",
+		"tax_type": "null"
+	},
+	{
+		"country": 2,
+		"code": "Bgl.",
+		"name": "Austria",
+		"tax": "0.19",
+		"tax_name": "LAM",
+		"tax_type": "normal"
+	},
+	{
+		"country": 130,
+		"code": "AK",
+		"name": "Nigeria",
+		"tax": "0.19",
+		"tax_name": "C",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 94,
+		"code": "O",
+		"name": "Sweden",
+		"tax": "0.04",
+		"tax_name": "34",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 121,
+		"code": "NI",
+		"name": "New Zealand",
+		"tax": "0.09",
+		"tax_name": "SG-02",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 57,
+		"code": "O",
+		"name": "Sweden",
+		"tax": "0.15",
+		"tax_name": "LIG",
+		"tax_type": "null"
+	},
+	{
+		"country": 19,
+		"code": "JH",
+		"name": "India",
+		"tax": "0.01",
+		"tax_name": "QC",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 106,
+		"code": "BC",
+		"name": "Canada",
+		"tax": "0.08",
+		"tax_name": "NA",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 114,
+		"code": "Son.",
+		"name": "Mexico",
+		"tax": "0.11",
+		"tax_name": "SG-02",
+		"tax_type": "null"
+	},
+	{
+		"country": 28,
+		"code": "X",
+		"name": "Sweden",
+		"tax": "0.06",
+		"tax_name": "11",
+		"tax_type": "normal"
+	},
+	{
+		"country": 124,
+		"code": "VAU",
+		"name": "Colombia",
+		"tax": "0.03",
+		"tax_name": "CL",
+		"tax_type": "null"
+	},
+	{
+		"country": 132,
+		"code": "IF",
+		"name": "Ukraine",
+		"tax": "0.02",
+		"tax_name": "III",
+		"tax_type": "null"
+	},
+	{
+		"country": 76,
+		"code": "Wien",
+		"name": "Austria",
+		"tax": "0.10",
+		"tax_name": "Zhōngnán",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 22,
+		"code": "U",
+		"name": "Ireland",
+		"tax": "0.03",
+		"tax_name": "CK",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 36,
+		"code": "PB",
+		"name": "India",
+		"tax": "0.19",
+		"tax_name": "WM",
+		"tax_type": "null"
+	},
+	{
+		"country": 142,
+		"code": "ERM",
+		"name": "Italy",
+		"tax": "0.19",
+		"tax_name": "WA",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 149,
+		"code": "L",
+		"name": "Ireland",
+		"tax": "0.05",
+		"tax_name": "LI",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 24,
+		"code": "NI",
+		"name": "New Zealand",
+		"tax": "0.15",
+		"tax_name": "NÖ.",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 8,
+		"code": "O",
+		"name": "Sweden",
+		"tax": "0.08",
+		"tax_name": "Hà Nội",
+		"tax_type": "null"
+	},
+	{
+		"country": 30,
+		"code": "SG-02",
+		"name": "Singapore",
+		"tax": "0.14",
+		"tax_name": "SN",
+		"tax_type": "normal"
+	},
+	{
+		"country": 136,
+		"code": "MU",
+		"name": "Spain",
+		"tax": "0.07",
+		"tax_name": "WA",
+		"tax_type": "null"
+	},
+	{
+		"country": 149,
+		"code": "MA",
+		"name": "Spain",
+		"tax": "0.05",
+		"tax_name": "ME",
+		"tax_type": "normal"
+	},
+	{
+		"country": 24,
+		"code": "C",
+		"name": "Ireland",
+		"tax": "0.08",
+		"tax_name": "CDMX",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 44,
+		"code": "Tirol",
+		"name": "Austria",
+		"tax": "0.19",
+		"tax_name": "PR",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 18,
+		"code": "Fr",
+		"name": "Netherlands",
+		"tax": "0.16",
+		"tax_name": "NSW",
+		"tax_type": "normal"
+	},
+	{
+		"country": 84,
+		"code": "NI",
+		"name": "New Zealand",
+		"tax": "0.12",
+		"tax_name": "CA",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 145,
+		"code": "KPK",
+		"name": "Pakistan",
+		"tax": "0.02",
+		"tax_name": "WV",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 49,
+		"code": "Jeju",
+		"name": "South Korea",
+		"tax": "0.08",
+		"tax_name": "NT",
+		"tax_type": "normal"
+	},
+	{
+		"country": 27,
+		"code": "NO",
+		"name": "France",
+		"tax": "0.19",
+		"tax_name": "KEM",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 111,
+		"code": "FC",
+		"name": "France",
+		"tax": "0.03",
+		"tax_name": "A",
+		"tax_type": "null"
+	},
+	{
+		"country": 37,
+		"code": "PE",
+		"name": "Canada",
+		"tax": "0.05",
+		"tax_name": "BL",
+		"tax_type": "null"
+	},
+	{
+		"country": 26,
+		"code": "MP",
+		"name": "South Africa",
+		"tax": "0.18",
+		"tax_name": "Son.",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 49,
+		"code": "SJ",
+		"name": "Costa Rica",
+		"tax": "0.06",
+		"tax_name": "VB",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 63,
+		"code": "BL",
+		"name": "Pakistan",
+		"tax": "0.03",
+		"tax_name": "Gyeongnam",
+		"tax_type": "normal"
+	},
+	{
+		"country": 149,
+		"code": "Hgo.",
+		"name": "Mexico",
+		"tax": "0.15",
+		"tax_name": "ME",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 115,
+		"code": "Kahramanmaraş",
+		"name": "Turkey",
+		"tax": "0.17",
+		"tax_name": "WY",
+		"tax_type": "normal"
+	},
+	{
+		"country": 32,
+		"code": "RJ",
+		"name": "Brazil",
+		"tax": "0.19",
+		"tax_name": "RS",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 146,
+		"code": "CV",
+		"name": "Spain",
+		"tax": "0.18",
+		"tax_name": "XV",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 26,
+		"code": "ER",
+		"name": "Singapore",
+		"tax": "0.16",
+		"tax_name": "Ankara",
+		"tax_type": "normal"
+	},
+	{
+		"country": 55,
+		"code": "F",
+		"name": "Sweden",
+		"tax": "0.13",
+		"tax_name": "AU",
+		"tax_type": "normal"
+	},
+	{
+		"country": 14,
+		"code": "SI",
+		"name": "New Zealand",
+		"tax": "0.01",
+		"tax_name": "03",
+		"tax_type": "normal"
+	},
+	{
+		"country": 145,
+		"code": "L.",
+		"name": "Netherlands",
+		"tax": "0.19",
+		"tax_name": "II",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 22,
+		"code": "Sbg.",
+		"name": "Austria",
+		"tax": "0.11",
+		"tax_name": "PM",
+		"tax_type": "null"
+	},
+	{
+		"country": 71,
+		"code": "PE",
+		"name": "Brazil",
+		"tax": "0.08",
+		"tax_name": "Tây Ninh",
+		"tax_type": "null"
+	},
+	{
+		"country": 148,
+		"code": "46",
+		"name": "Norway",
+		"tax": "0.02",
+		"tax_name": "regionV",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 38,
+		"code": "Fl",
+		"name": "Netherlands",
+		"tax": "0.02",
+		"tax_name": "WA",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 41,
+		"code": "Stm.",
+		"name": "Austria",
+		"tax": "0.03",
+		"tax_name": "DO",
+		"tax_type": "normal"
+	},
+	{
+		"country": 35,
+		"code": "NI",
+		"name": "New Zealand",
+		"tax": "0.12",
+		"tax_name": "Mich.",
+		"tax_type": "null"
+	},
+	{
+		"country": 42,
+		"code": "LA",
+		"name": "Nigeria",
+		"tax": "0.03",
+		"tax_name": "SA",
+		"tax_type": "normal"
+	},
+	{
+		"country": 110,
+		"code": "ER",
+		"name": "Singapore",
+		"tax": "0.18",
+		"tax_name": "Ktn.",
+		"tax_type": "null"
+	},
+	{
+		"country": 86,
+		"code": "DE",
+		"name": "United States",
+		"tax": "0.05",
+		"tax_name": "ACT",
+		"tax_type": "normal"
+	},
+	{
+		"country": 67,
+		"code": "XIV",
+		"name": "Chile",
+		"tax": "0.04",
+		"tax_name": "46",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 103,
+		"code": "HR",
+		"name": "United Kingdom",
+		"tax": "0.13",
+		"tax_name": "CA",
+		"tax_type": "null"
+	},
+	{
+		"country": 50,
+		"code": "Jeonbuk",
+		"name": "South Korea",
+		"tax": "0.02",
+		"tax_name": "SC",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 107,
+		"code": "RJ",
+		"name": "Brazil",
+		"tax": "0.06",
+		"tax_name": "FA",
+		"tax_type": "normal"
+	},
+	{
+		"country": 2,
+		"code": "AB",
+		"name": "Sweden",
+		"tax": "0.14",
+		"tax_name": "NL",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 42,
+		"code": "SH",
+		"name": "Germany",
+		"tax": "0.14",
+		"tax_name": "M",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 39,
+		"code": "Bình Dương",
+		"name": "Vietnam",
+		"tax": "0.10",
+		"tax_name": "Gl",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 99,
+		"code": "H",
+		"name": "Costa Rica",
+		"tax": "0.11",
+		"tax_name": "CH",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 62,
+		"code": "CA",
+		"name": "Spain",
+		"tax": "0.14",
+		"tax_name": "NC",
+		"tax_type": "null"
+	},
+	{
+		"country": 27,
+		"code": "ROS",
+		"name": "Russian Federation",
+		"tax": "0.04",
+		"tax_name": "HB",
+		"tax_type": "normal"
+	},
+	{
+		"country": 30,
+		"code": "regionVIII",
+		"name": "Philippines",
+		"tax": "0.15",
+		"tax_name": "CM",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 9,
+		"code": "Gyeongnam",
+		"name": "South Korea",
+		"tax": "0.13",
+		"tax_name": "LIP",
+		"tax_type": "normal"
+	},
+	{
+		"country": 99,
+		"code": "Hà Nam",
+		"name": "Vietnam",
+		"tax": "0.15",
+		"tax_name": "NF",
+		"tax_type": "null"
+	},
+	{
+		"country": 16,
+		"code": "KV",
+		"name": "Ukraine",
+		"tax": "0.17",
+		"tax_name": "DS",
+		"tax_type": "normal"
+	},
+	{
+		"country": 114,
+		"code": "mimaropa",
+		"name": "Philippines",
+		"tax": "0.11",
+		"tax_name": "U",
+		"tax_type": "normal"
+	},
+	{
+		"country": 87,
+		"code": "ZT",
+		"name": "Ukraine",
+		"tax": "0.13",
+		"tax_name": "PK",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 11,
+		"code": "Stm.",
+		"name": "Austria",
+		"tax": "0.02",
+		"tax_name": "M",
+		"tax_type": "null"
+	},
+	{
+		"country": 87,
+		"code": "GO",
+		"name": "Brazil",
+		"tax": "0.05",
+		"tax_name": "Kahramanmaraş",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 15,
+		"code": "KT",
+		"name": "Indonesia",
+		"tax": "0.17",
+		"tax_name": "regionIX",
+		"tax_type": "null"
+	},
+	{
+		"country": 131,
+		"code": "Sóc Trăng",
+		"name": "Vietnam",
+		"tax": "0.13",
+		"tax_name": "Kocaeli",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 73,
+		"code": "LAG",
+		"name": "Colombia",
+		"tax": "0.17",
+		"tax_name": "WC",
+		"tax_type": "null"
+	},
+	{
+		"country": 103,
+		"code": "38",
+		"name": "Norway",
+		"tax": "0.09",
+		"tax_name": "Jal.",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 25,
+		"code": "SC",
+		"name": "Brazil",
+		"tax": "0.19",
+		"tax_name": "AU",
+		"tax_type": "normal"
+	},
+	{
+		"country": 127,
+		"code": "ZK",
+		"name": "Ukraine",
+		"tax": "0.03",
+		"tax_name": "Son.",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 38,
+		"code": "KS",
+		"name": "Indonesia",
+		"tax": "0.05",
+		"tax_name": "KPK",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 148,
+		"code": "PV",
+		"name": "Spain",
+		"tax": "0.05",
+		"tax_name": "GB",
+		"tax_type": "normal"
+	},
+	{
+		"country": 16,
+		"code": "SE",
+		"name": "United Kingdom",
+		"tax": "0.07",
+		"tax_name": "Tab.",
+		"tax_type": "null"
+	},
+	{
+		"country": 32,
+		"code": "ACT",
+		"name": "Australia",
+		"tax": "0.19",
+		"tax_name": "Stm.",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 38,
+		"code": "ZT",
+		"name": "Ukraine",
+		"tax": "0.14",
+		"tax_name": "AR",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 148,
+		"code": "SK",
+		"name": "Poland",
+		"tax": "0.01",
+		"tax_name": "NI",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 117,
+		"code": "NI",
+		"name": "New Zealand",
+		"tax": "0.16",
+		"tax_name": "N.",
+		"tax_type": "normal"
+	},
+	{
+		"country": 104,
+		"code": "Stm.",
+		"name": "Austria",
+		"tax": "0.03",
+		"tax_name": "regionIII",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 60,
+		"code": "MA",
+		"name": "Indonesia",
+		"tax": "0.11",
+		"tax_name": "ACT",
+		"tax_type": "null"
+	},
+	{
+		"country": 114,
+		"code": "15",
+		"name": "Norway",
+		"tax": "0.07",
+		"tax_name": "Sbg.",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 85,
+		"code": "VII",
+		"name": "Chile",
+		"tax": "0.16",
+		"tax_name": "CR",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 7,
+		"code": "KZN",
+		"name": "South Africa",
+		"tax": "0.03",
+		"tax_name": "M",
+		"tax_type": "normal"
+	},
+	{
+		"country": 105,
+		"code": "NL",
+		"name": "Canada",
+		"tax": "0.05",
+		"tax_name": "regionVIII",
+		"tax_type": "null"
+	},
+	{
+		"country": 129,
+		"code": "UMB",
+		"name": "Italy",
+		"tax": "0.10",
+		"tax_name": "Tamps.",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 142,
+		"code": "ER",
+		"name": "Singapore",
+		"tax": "0.02",
+		"tax_name": "CAM",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 81,
+		"code": "Hà Giang",
+		"name": "Vietnam",
+		"tax": "0.06",
+		"tax_name": "TOS",
+		"tax_type": "null"
+	},
+	{
+		"country": 27,
+		"code": "BA",
+		"name": "France",
+		"tax": "0.10",
+		"tax_name": "C",
+		"tax_type": "normal"
+	},
+	{
+		"country": 62,
+		"code": "BU",
+		"name": "Belgium",
+		"tax": "0.09",
+		"tax_name": "KK",
+		"tax_type": "null"
+	},
+	{
+		"country": 104,
+		"code": "WV",
+		"name": "Belgium",
+		"tax": "0.17",
+		"tax_name": "VII",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 106,
+		"code": "VOR",
+		"name": "Russian Federation",
+		"tax": "0.12",
+		"tax_name": "TP",
+		"tax_type": "normal"
+	},
+	{
+		"country": 106,
+		"code": "CE",
+		"name": "Brazil",
+		"tax": "0.01",
+		"tax_name": "CR",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 122,
+		"code": "Chungnam",
+		"name": "South Korea",
+		"tax": "0.16",
+		"tax_name": "CU",
+		"tax_type": "null"
+	},
+	{
+		"country": 96,
+		"code": "RIS",
+		"name": "Colombia",
+		"tax": "0.17",
+		"tax_name": "KPK",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 18,
+		"code": "RM",
+		"name": "Chile",
+		"tax": "0.02",
+		"tax_name": "GA",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 105,
+		"code": "Xīnán",
+		"name": "China",
+		"tax": "0.09",
+		"tax_name": "Ktn.",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 83,
+		"code": "BL",
+		"name": "Pakistan",
+		"tax": "0.06",
+		"tax_name": "TAS",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 128,
+		"code": "Zhōngnán",
+		"name": "China",
+		"tax": "0.02",
+		"tax_name": "Dōngběi",
+		"tax_type": "null"
+	},
+	{
+		"country": 94,
+		"code": "CAJ",
+		"name": "Peru",
+		"tax": "0.15",
+		"tax_name": "Manisa",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 140,
+		"code": "Jeju",
+		"name": "South Korea",
+		"tax": "0.05",
+		"tax_name": "SK",
+		"tax_type": "null"
+	},
+	{
+		"country": 53,
+		"code": "NT",
+		"name": "United Kingdom",
+		"tax": "0.04",
+		"tax_name": "MD",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 108,
+		"code": "AR",
+		"name": "Spain",
+		"tax": "0.04",
+		"tax_name": "DP",
+		"tax_type": "null"
+	},
+	{
+		"country": 54,
+		"code": "SA",
+		"name": "Australia",
+		"tax": "0.19",
+		"tax_name": "ZP",
+		"tax_type": "normal"
+	},
+	{
+		"country": 116,
+		"code": "KT",
+		"name": "Nigeria",
+		"tax": "0.00",
+		"tax_name": "GA",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 142,
+		"code": "X",
+		"name": "Sweden",
+		"tax": "0.02",
+		"tax_name": "NL",
+		"tax_type": "null"
+	},
+	{
+		"country": 143,
+		"code": "KPK",
+		"name": "Pakistan",
+		"tax": "0.17",
+		"tax_name": "Gl",
+		"tax_type": "normal"
+	},
+	{
+		"country": 30,
+		"code": "ZP",
+		"name": "Ukraine",
+		"tax": "0.09",
+		"tax_name": "PA",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 4,
+		"code": "SL",
+		"name": "Poland",
+		"tax": "0.06",
+		"tax_name": "Hatay",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 83,
+		"code": "NS",
+		"name": "Canada",
+		"tax": "0.05",
+		"tax_name": "L",
+		"tax_type": "normal"
+	},
+	{
+		"country": 126,
+		"code": "MAG",
+		"name": "Colombia",
+		"tax": "0.05",
+		"tax_name": "KS",
+		"tax_type": "null"
+	},
+	{
+		"country": 23,
+		"code": "Ankara",
+		"name": "Turkey",
+		"tax": "0.20",
+		"tax_name": "MI",
+		"tax_type": "normal"
+	},
+	{
+		"country": 117,
+		"code": "BAS",
+		"name": "Italy",
+		"tax": "0.09",
+		"tax_name": "HE",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 14,
+		"code": "DE",
+		"name": "Nigeria",
+		"tax": "0.02",
+		"tax_name": "Pue.",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 26,
+		"code": "LB",
+		"name": "Poland",
+		"tax": "0.08",
+		"tax_name": "AB",
+		"tax_type": "null"
+	},
+	{
+		"country": 99,
+		"code": "NA",
+		"name": "Belgium",
+		"tax": "0.14",
+		"tax_name": "Jeonbuk",
+		"tax_type": "null"
+	},
+	{
+		"country": 137,
+		"code": "VAU",
+		"name": "Colombia",
+		"tax": "0.06",
+		"tax_name": "Jeonbuk",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 22,
+		"code": "Son.",
+		"name": "Mexico",
+		"tax": "0.05",
+		"tax_name": "YO",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 65,
+		"code": "IL",
+		"name": "United States",
+		"tax": "0.11",
+		"tax_name": "NI",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 69,
+		"code": "BY",
+		"name": "Germany",
+		"tax": "0.05",
+		"tax_name": "F",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 123,
+		"code": "UT",
+		"name": "United States",
+		"tax": "0.14",
+		"tax_name": "SG-01",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 133,
+		"code": "Vbg.",
+		"name": "Austria",
+		"tax": "0.10",
+		"tax_name": "Huádōng",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 38,
+		"code": "SI",
+		"name": "Pakistan",
+		"tax": "0.06",
+		"tax_name": "COR",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 27,
+		"code": "regionV",
+		"name": "Philippines",
+		"tax": "0.10",
+		"tax_name": "regionIX",
+		"tax_type": "null"
+	},
+	{
+		"country": 41,
+		"code": "SA",
+		"name": "Indonesia",
+		"tax": "0.10",
+		"tax_name": "NT",
+		"tax_type": "normal"
+	},
+	{
+		"country": 109,
+		"code": "G",
+		"name": "Costa Rica",
+		"tax": "0.10",
+		"tax_name": "C",
+		"tax_type": "normal"
+	},
+	{
+		"country": 59,
+		"code": "Bgl.",
+		"name": "Austria",
+		"tax": "0.17",
+		"tax_name": "Chungbuk",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 37,
+		"code": "SP",
+		"name": "Brazil",
+		"tax": "0.10",
+		"tax_name": "SI",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 55,
+		"code": "Tab.",
+		"name": "Mexico",
+		"tax": "0.09",
+		"tax_name": "II",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 64,
+		"code": "ANC",
+		"name": "Peru",
+		"tax": "0.14",
+		"tax_name": "MN",
+		"tax_type": "normal"
+	},
+	{
+		"country": 49,
+		"code": "ACT",
+		"name": "Australia",
+		"tax": "0.09",
+		"tax_name": "AMA",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 60,
+		"code": "IM",
+		"name": "Nigeria",
+		"tax": "0.13",
+		"tax_name": "RJ",
+		"tax_type": "normal"
+	},
+	{
+		"country": 15,
+		"code": "Gyeongnam",
+		"name": "South Korea",
+		"tax": "0.07",
+		"tax_name": "SA",
+		"tax_type": "normal"
+	},
+	{
+		"country": 119,
+		"code": "regionVII",
+		"name": "Philippines",
+		"tax": "0.17",
+		"tax_name": "CUS",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 97,
+		"code": "AR",
+		"name": "India",
+		"tax": "0.15",
+		"tax_name": "NI",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 65,
+		"code": "GA",
+		"name": "India",
+		"tax": "0.14",
+		"tax_name": "46",
+		"tax_type": "normal"
+	},
+	{
+		"country": 2,
+		"code": "CE",
+		"name": "Spain",
+		"tax": "0.17",
+		"tax_name": "MA",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 89,
+		"code": "WB",
+		"name": "Belgium",
+		"tax": "0.18",
+		"tax_name": "Ov",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 148,
+		"code": "E",
+		"name": "Sweden",
+		"tax": "0.06",
+		"tax_name": "NI",
+		"tax_type": "null"
+	},
+	{
+		"country": 80,
+		"code": "GJ",
+		"name": "India",
+		"tax": "0.06",
+		"tax_name": "OÖ.",
+		"tax_type": "normal"
+	},
+	{
+		"country": 73,
+		"code": "KZN",
+		"name": "South Africa",
+		"tax": "0.05",
+		"tax_name": "ERM",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 13,
+		"code": "CK",
+		"name": "Ukraine",
+		"tax": "0.02",
+		"tax_name": "BOL",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 141,
+		"code": "L.",
+		"name": "Netherlands",
+		"tax": "0.02",
+		"tax_name": "PE",
+		"tax_type": "null"
+	},
+	{
+		"country": 63,
+		"code": "A",
+		"name": "Costa Rica",
+		"tax": "0.07",
+		"tax_name": "NI",
+		"tax_type": "null"
+	},
+	{
+		"country": 21,
+		"code": "Xīběi",
+		"name": "China",
+		"tax": "0.09",
+		"tax_name": "HR",
+		"tax_type": "null"
+	},
+	{
+		"country": 70,
+		"code": "NSW",
+		"name": "Australia",
+		"tax": "0.17",
+		"tax_name": "FVG",
+		"tax_type": "null"
+	},
+	{
+		"country": 130,
+		"code": "SI",
+		"name": "New Zealand",
+		"tax": "0.01",
+		"tax_name": "NC",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 23,
+		"code": "Phú Thọ",
+		"name": "Vietnam",
+		"tax": "0.18",
+		"tax_name": "BB",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 141,
+		"code": "U",
+		"name": "Ireland",
+		"tax": "0.11",
+		"tax_name": "Zhōngnán",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 72,
+		"code": "Sbg.",
+		"name": "Austria",
+		"tax": "0.09",
+		"tax_name": "AB",
+		"tax_type": "normal"
+	},
+	{
+		"country": 137,
+		"code": "Dōngběi",
+		"name": "China",
+		"tax": "0.06",
+		"tax_name": "NI",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 79,
+		"code": "VB",
+		"name": "Belgium",
+		"tax": "0.20",
+		"tax_name": "MT",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 101,
+		"code": "C",
+		"name": "Ireland",
+		"tax": "0.12",
+		"tax_name": "BL",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 82,
+		"code": "LA",
+		"name": "Nigeria",
+		"tax": "0.04",
+		"tax_name": "Zhōngnán",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 16,
+		"code": "KB",
+		"name": "Indonesia",
+		"tax": "0.16",
+		"tax_name": "E",
+		"tax_type": "normal"
+	},
+	{
+		"country": 42,
+		"code": "NI",
+		"name": "New Zealand",
+		"tax": "0.19",
+		"tax_name": "NI",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 77,
+		"code": "MU",
+		"name": "Spain",
+		"tax": "0.11",
+		"tax_name": "KM",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 124,
+		"code": "Aydın",
+		"name": "Turkey",
+		"tax": "0.01",
+		"tax_name": "DE",
+		"tax_type": "null"
+	},
+	{
+		"country": 19,
+		"code": "VI",
+		"name": "Chile",
+		"tax": "0.02",
+		"tax_name": "U",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 120,
+		"code": "OV",
+		"name": "Belgium",
+		"tax": "0.04",
+		"tax_name": "EC",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 39,
+		"code": "NS",
+		"name": "Canada",
+		"tax": "0.16",
+		"tax_name": "G",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 143,
+		"code": "regionIX",
+		"name": "Philippines",
+		"tax": "0.13",
+		"tax_name": "Kayseri",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 9,
+		"code": "ARK",
+		"name": "Russian Federation",
+		"tax": "0.00",
+		"tax_name": "30",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 35,
+		"code": "PR",
+		"name": "Brazil",
+		"tax": "0.02",
+		"tax_name": "YO",
+		"tax_type": "normal"
+	},
+	{
+		"country": 6,
+		"code": "Gyeongbuk",
+		"name": "South Korea",
+		"tax": "0.18",
+		"tax_name": "IX",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 104,
+		"code": "L.",
+		"name": "Netherlands",
+		"tax": "0.06",
+		"tax_name": "SL",
+		"tax_type": "normal"
+	},
+	{
+		"country": 115,
+		"code": "RJ",
+		"name": "Brazil",
+		"tax": "0.05",
+		"tax_name": "BE",
+		"tax_type": "normal"
+	},
+	{
+		"country": 97,
+		"code": "ARE",
+		"name": "Peru",
+		"tax": "0.08",
+		"tax_name": "BA",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 47,
+		"code": "Huáběi",
+		"name": "China",
+		"tax": "0.04",
+		"tax_name": "46",
+		"tax_type": "null"
+	},
+	{
+		"country": 133,
+		"code": "mimaropa",
+		"name": "Philippines",
+		"tax": "0.01",
+		"tax_name": "KGN",
+		"tax_type": "null"
+	},
+	{
+		"country": 60,
+		"code": "LB",
+		"name": "Poland",
+		"tax": "0.03",
+		"tax_name": "Nghệ An",
+		"tax_type": "null"
+	},
+	{
+		"country": 144,
+		"code": "Xīnán",
+		"name": "China",
+		"tax": "0.04",
+		"tax_name": "HH",
+		"tax_type": "null"
+	},
+	{
+		"country": 122,
+		"code": "BL",
+		"name": "Pakistan",
+		"tax": "0.06",
+		"tax_name": "regionII",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 138,
+		"code": "NI",
+		"name": "New Zealand",
+		"tax": "0.08",
+		"tax_name": "SAP",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 109,
+		"code": "OD",
+		"name": "Ukraine",
+		"tax": "0.07",
+		"tax_name": "CT",
+		"tax_type": "normal"
+	},
+	{
+		"country": 104,
+		"code": "GA",
+		"name": "India",
+		"tax": "0.09",
+		"tax_name": "HB",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 74,
+		"code": "CUS",
+		"name": "Peru",
+		"tax": "0.00",
+		"tax_name": "PR",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 121,
+		"code": "NVS",
+		"name": "Russian Federation",
+		"tax": "0.17",
+		"tax_name": "PIE",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 58,
+		"code": "AB",
+		"name": "Canada",
+		"tax": "0.09",
+		"tax_name": "YO",
+		"tax_type": "null"
+	},
+	{
+		"country": 117,
+		"code": "Van",
+		"name": "Turkey",
+		"tax": "0.01",
+		"tax_name": "PA",
+		"tax_type": "normal"
+	},
+	{
+		"country": 98,
+		"code": "Huádōng",
+		"name": "China",
+		"tax": "0.11",
+		"tax_name": "NT",
+		"tax_type": "normal"
+	},
+	{
+		"country": 23,
+		"code": "Kon Tum",
+		"name": "Vietnam",
+		"tax": "0.13",
+		"tax_name": "NT",
+		"tax_type": "normal"
+	},
+	{
+		"country": 83,
+		"code": "WL",
+		"name": "United Kingdom",
+		"tax": "0.17",
+		"tax_name": "HB",
+		"tax_type": "null"
+	},
+	{
+		"country": 144,
+		"code": "SO",
+		"name": "United Kingdom",
+		"tax": "0.16",
+		"tax_name": "CN",
+		"tax_type": "normal"
+	},
+	{
+		"country": 115,
+		"code": "IX",
+		"name": "Chile",
+		"tax": "0.19",
+		"tax_name": "SK",
+		"tax_type": "normal"
+	},
+	{
+		"country": 42,
+		"code": "SR",
+		"name": "Indonesia",
+		"tax": "0.02",
+		"tax_name": "CO",
+		"tax_type": "null"
+	},
+	{
+		"country": 48,
+		"code": "ER",
+		"name": "Singapore",
+		"tax": "0.07",
+		"tax_name": "RS",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 133,
+		"code": "KZN",
+		"name": "South Africa",
+		"tax": "0.01",
+		"tax_name": "Kayseri",
+		"tax_type": "null"
+	},
+	{
+		"country": 52,
+		"code": "N.",
+		"name": "Netherlands",
+		"tax": "0.16",
+		"tax_name": "CM",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 83,
+		"code": "U",
+		"name": "Ireland",
+		"tax": "0.10",
+		"tax_name": "KC",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 18,
+		"code": "FS",
+		"name": "South Africa",
+		"tax": "0.03",
+		"tax_name": "X",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 15,
+		"code": "Xīběi",
+		"name": "China",
+		"tax": "0.12",
+		"tax_name": "Jeonbuk",
+		"tax_type": "normal"
+	},
+	{
+		"country": 118,
+		"code": "BC",
+		"name": "Canada",
+		"tax": "0.07",
+		"tax_name": "CAJ",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 148,
+		"code": "H",
+		"name": "Costa Rica",
+		"tax": "0.13",
+		"tax_name": "Sin.",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 24,
+		"code": "TUL",
+		"name": "Russian Federation",
+		"tax": "0.12",
+		"tax_name": "TVE",
+		"tax_type": "null"
+	},
+	{
+		"country": 40,
+		"code": "VII",
+		"name": "Chile",
+		"tax": "0.09",
+		"tax_name": "LP",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 76,
+		"code": "SF",
+		"name": "United Kingdom",
+		"tax": "0.01",
+		"tax_name": "PB",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 116,
+		"code": "U.",
+		"name": "Netherlands",
+		"tax": "0.16",
+		"tax_name": "LX",
+		"tax_type": "normal"
+	},
+	{
+		"country": 20,
+		"code": "VDA",
+		"name": "Italy",
+		"tax": "0.02",
+		"tax_name": "regionVII",
+		"tax_type": "null"
+	},
+	{
+		"country": 75,
+		"code": "CH",
+		"name": "France",
+		"tax": "0.16",
+		"tax_name": "regionXI",
+		"tax_type": "null"
+	},
+	{
+		"country": 149,
+		"code": "Hưng Yên",
+		"name": "Vietnam",
+		"tax": "0.13",
+		"tax_name": "JB",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 16,
+		"code": "LA",
+		"name": "France",
+		"tax": "0.11",
+		"tax_name": "Khánh Hòa",
+		"tax_type": "normal"
+	},
+	{
+		"country": 62,
+		"code": "Gaziantep",
+		"name": "Turkey",
+		"tax": "0.12",
+		"tax_name": "W",
+		"tax_type": "normal"
+	},
+	{
+		"country": 7,
+		"code": "LAM",
+		"name": "Peru",
+		"tax": "0.18",
+		"tax_name": "WY",
+		"tax_type": "normal"
+	},
+	{
+		"country": 53,
+		"code": "WA",
+		"name": "Australia",
+		"tax": "0.15",
+		"tax_name": "Jal.",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 40,
+		"code": "CAS",
+		"name": "Colombia",
+		"tax": "0.10",
+		"tax_name": "CAJ",
+		"tax_type": "normal"
+	},
+	{
+		"country": 126,
+		"code": "CAR",
+		"name": "Philippines",
+		"tax": "0.18",
+		"tax_name": "Bgl.",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 27,
+		"code": "Huáběi",
+		"name": "China",
+		"tax": "0.16",
+		"tax_name": "WB",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 94,
+		"code": "LA",
+		"name": "Nigeria",
+		"tax": "0.19",
+		"tax_name": "HH",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 75,
+		"code": "KR",
+		"name": "Indonesia",
+		"tax": "0.15",
+		"tax_name": "LA",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 72,
+		"code": "AS",
+		"name": "Spain",
+		"tax": "0.19",
+		"tax_name": "Kahramanmaraş",
+		"tax_type": "null"
+	},
+	{
+		"country": 106,
+		"code": "SH",
+		"name": "Germany",
+		"tax": "0.17",
+		"tax_name": "EC",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 87,
+		"code": "JK",
+		"name": "Indonesia",
+		"tax": "0.19",
+		"tax_name": "RI",
+		"tax_type": "normal"
+	},
+	{
+		"country": 112,
+		"code": "L.",
+		"name": "Netherlands",
+		"tax": "0.04",
+		"tax_name": "ER",
+		"tax_type": "null"
+	},
+	{
+		"country": 51,
+		"code": "QLD",
+		"name": "Australia",
+		"tax": "0.11",
+		"tax_name": "regionVIII",
+		"tax_type": "normal"
+	},
+	{
+		"country": 49,
+		"code": "BO",
+		"name": "France",
+		"tax": "0.08",
+		"tax_name": "VB",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 40,
+		"code": "CR",
+		"name": "Singapore",
+		"tax": "0.17",
+		"tax_name": "HP",
+		"tax_type": "null"
+	},
+	{
+		"country": 132,
+		"code": "SI",
+		"name": "New Zealand",
+		"tax": "0.16",
+		"tax_name": "AB",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 43,
+		"code": "XIV",
+		"name": "Chile",
+		"tax": "0.11",
+		"tax_name": "CO",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 43,
+		"code": "ME",
+		"name": "Spain",
+		"tax": "0.01",
+		"tax_name": "NI",
+		"tax_type": "null"
+	},
+	{
+		"country": 124,
+		"code": "NC",
+		"name": "South Africa",
+		"tax": "0.17",
+		"tax_name": "N.",
+		"tax_type": "normal"
+	},
+	{
+		"country": 13,
+		"code": "FS",
+		"name": "South Africa",
+		"tax": "0.11",
+		"tax_name": "PE",
+		"tax_type": "compounded"
+	},
+	{
+		"country": 115,
+		"code": "NF",
+		"name": "United Kingdom",
+		"tax": "0.02",
+		"tax_name": "WY",
+		"tax_type": "harmonized"
+	},
+	{
+		"country": 73,
+		"code": "KS",
+		"name": "Ukraine",
+		"tax": "0.05",
+		"tax_name": "RM",
+		"tax_type": "null"
+	},
+	{
+		"country": 40,
+		"code": "MAR",
+		"name": "Italy",
+		"tax": "0.18",
+		"tax_name": "SI",
+		"tax_type": "null"
+	},
+	{
+		"country": 49,
+		"code": "Jeonnam",
+		"name": "South Korea",
+		"tax": "0.05",
+		"tax_name": "ER",
+		"tax_type": "null"
+	}
+]

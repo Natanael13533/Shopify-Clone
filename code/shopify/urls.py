@@ -17,8 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from customer.api import api
+from property.api import apiProp
 
 urlpatterns = [
     path('admin/api/2024-04/', api.urls),
+    path('admin/api/2024-04/', apiProp.urls),
     path('web-admin/', admin.site.urls),
 ]

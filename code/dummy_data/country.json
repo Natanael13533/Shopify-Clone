@@ -1,0 +1,902 @@
+[
+	{
+		"code": "SA",
+		"name": "Australia",
+		"tax": "0.15",
+		"tax_name": "PU"
+	},
+	{
+		"code": "Chis.",
+		"name": "Mexico",
+		"tax": "0.18",
+		"tax_name": "Samsun"
+	},
+	{
+		"code": "PIU",
+		"name": "Peru",
+		"tax": "0.03",
+		"tax_name": "Hgo."
+	},
+	{
+		"code": "AU",
+		"name": "France",
+		"tax": "0.03",
+		"tax_name": "Son."
+	},
+	{
+		"code": "Quảng Nam",
+		"name": "Vietnam",
+		"tax": "0.01",
+		"tax_name": "WL"
+	},
+	{
+		"code": "TAS",
+		"name": "Australia",
+		"tax": "0.19",
+		"tax_name": "15"
+	},
+	{
+		"code": "46",
+		"name": "Norway",
+		"tax": "0.07",
+		"tax_name": "LP"
+	},
+	{
+		"code": "U",
+		"name": "Ireland",
+		"tax": "0.12",
+		"tax_name": "U."
+	},
+	{
+		"code": "CK",
+		"name": "Ukraine",
+		"tax": "0.07",
+		"tax_name": "NAR"
+	},
+	{
+		"code": "TAS",
+		"name": "Australia",
+		"tax": "0.14",
+		"tax_name": "BL"
+	},
+	{
+		"code": "SI",
+		"name": "New Zealand",
+		"tax": "0.01",
+		"tax_name": "SK"
+	},
+	{
+		"code": "LAM",
+		"name": "Peru",
+		"tax": "0.19",
+		"tax_name": "WV"
+	},
+	{
+		"code": "P",
+		"name": "Costa Rica",
+		"tax": "0.19",
+		"tax_name": "ANT"
+	},
+	{
+		"code": "Ankara",
+		"name": "Turkey",
+		"tax": "0.09",
+		"tax_name": "Aydın"
+	},
+	{
+		"code": "42",
+		"name": "Norway",
+		"tax": "0.04",
+		"tax_name": "Nam Định"
+	},
+	{
+		"code": "TN",
+		"name": "United States",
+		"tax": "0.02",
+		"tax_name": "PUG"
+	},
+	{
+		"code": "GB",
+		"name": "Pakistan",
+		"tax": "0.07",
+		"tax_name": "CV"
+	},
+	{
+		"code": "ER",
+		"name": "Singapore",
+		"tax": "0.05",
+		"tax_name": "KH"
+	},
+	{
+		"code": "E",
+		"name": "Sweden",
+		"tax": "0.10",
+		"tax_name": "Konya"
+	},
+	{
+		"code": "Thái Bình",
+		"name": "Vietnam",
+		"tax": "0.08",
+		"tax_name": "NI"
+	},
+	{
+		"code": "FVG",
+		"name": "Italy",
+		"tax": "0.03",
+		"tax_name": "Ankara"
+	},
+	{
+		"code": "SG-01",
+		"name": "Singapore",
+		"tax": "0.05",
+		"tax_name": "TX"
+	},
+	{
+		"code": "MO",
+		"name": "United States",
+		"tax": "0.04",
+		"tax_name": "Gyeongbuk"
+	},
+	{
+		"code": "WC",
+		"name": "South Africa",
+		"tax": "0.05",
+		"tax_name": "SL"
+	},
+	{
+		"code": "11",
+		"name": "Norway",
+		"tax": "0.15",
+		"tax_name": "Van"
+	},
+	{
+		"code": "Ov",
+		"name": "Netherlands",
+		"tax": "0.11",
+		"tax_name": "AK"
+	},
+	{
+		"code": "MV",
+		"name": "Germany",
+		"tax": "0.01",
+		"tax_name": "NA"
+	},
+	{
+		"code": "CR",
+		"name": "Singapore",
+		"tax": "0.18",
+		"tax_name": "LR"
+	},
+	{
+		"code": "H",
+		"name": "Costa Rica",
+		"tax": "0.03",
+		"tax_name": "CG"
+	},
+	{
+		"code": "IX",
+		"name": "Chile",
+		"tax": "0.01",
+		"tax_name": "NT"
+	},
+	{
+		"code": "ME",
+		"name": "Spain",
+		"tax": "0.13",
+		"tax_name": "NS"
+	},
+	{
+		"code": "SR",
+		"name": "Indonesia",
+		"tax": "0.05",
+		"tax_name": "RI"
+	},
+	{
+		"code": "AB",
+		"name": "Sweden",
+		"tax": "0.07",
+		"tax_name": "FA"
+	},
+	{
+		"code": "Zhōngnán",
+		"name": "China",
+		"tax": "0.08",
+		"tax_name": "Jeonbuk"
+	},
+	{
+		"code": "VIC",
+		"name": "Australia",
+		"tax": "0.20",
+		"tax_name": "regionVII"
+	},
+	{
+		"code": "BA",
+		"name": "Brazil",
+		"tax": "0.01",
+		"tax_name": "NI"
+	},
+	{
+		"code": "LOR",
+		"name": "Peru",
+		"tax": "0.11",
+		"tax_name": "C"
+	},
+	{
+		"code": "NSW",
+		"name": "Australia",
+		"tax": "0.10",
+		"tax_name": "NSW"
+	},
+	{
+		"code": "CA",
+		"name": "Spain",
+		"tax": "0.14",
+		"tax_name": "mimaropa"
+	},
+	{
+		"code": "W",
+		"name": "Sweden",
+		"tax": "0.01",
+		"tax_name": "SUC"
+	},
+	{
+		"code": "AB",
+		"name": "Sweden",
+		"tax": "0.14",
+		"tax_name": "NI"
+	},
+	{
+		"code": "Tirol",
+		"name": "Austria",
+		"tax": "0.07",
+		"tax_name": "BE"
+	},
+	{
+		"code": "Dōngběi",
+		"name": "China",
+		"tax": "0.02",
+		"tax_name": "Gyeonggi"
+	},
+	{
+		"code": "Z.",
+		"name": "Netherlands",
+		"tax": "0.01",
+		"tax_name": "AN"
+	},
+	{
+		"code": "VII",
+		"name": "Chile",
+		"tax": "0.02",
+		"tax_name": "SC"
+	},
+	{
+		"code": "C",
+		"name": "Ireland",
+		"tax": "0.10",
+		"tax_name": "AB"
+	},
+	{
+		"code": "18",
+		"name": "Norway",
+		"tax": "0.20",
+		"tax_name": "Dōngběi"
+	},
+	{
+		"code": "KZN",
+		"name": "South Africa",
+		"tax": "0.10",
+		"tax_name": "L"
+	},
+	{
+		"code": "VI",
+		"name": "Ukraine",
+		"tax": "0.11",
+		"tax_name": "BB"
+	},
+	{
+		"code": "CUS",
+		"name": "Peru",
+		"tax": "0.05",
+		"tax_name": "SL"
+	},
+	{
+		"code": "PU",
+		"name": "Pakistan",
+		"tax": "0.11",
+		"tax_name": "NSW"
+	},
+	{
+		"code": "Coah.",
+		"name": "Mexico",
+		"tax": "0.14",
+		"tax_name": "PB"
+	},
+	{
+		"code": "54",
+		"name": "Norway",
+		"tax": "0.12",
+		"tax_name": "NW"
+	},
+	{
+		"code": "Hải Phòng",
+		"name": "Vietnam",
+		"tax": "0.05",
+		"tax_name": "SIC"
+	},
+	{
+		"code": "W",
+		"name": "Sweden",
+		"tax": "0.17",
+		"tax_name": "GUV"
+	},
+	{
+		"code": "PSK",
+		"name": "Russian Federation",
+		"tax": "0.15",
+		"tax_name": "B.C."
+	},
+	{
+		"code": "AN",
+		"name": "Nigeria",
+		"tax": "0.02",
+		"tax_name": "Kiên Giang"
+	},
+	{
+		"code": "DT",
+		"name": "Ukraine",
+		"tax": "0.13",
+		"tax_name": "UP"
+	},
+	{
+		"code": "MA",
+		"name": "Poland",
+		"tax": "0.08",
+		"tax_name": "AZ"
+	},
+	{
+		"code": "Gyeongnam",
+		"name": "South Korea",
+		"tax": "0.17",
+		"tax_name": "Mersin"
+	},
+	{
+		"code": "LO",
+		"name": "France",
+		"tax": "0.01",
+		"tax_name": "KGD"
+	},
+	{
+		"code": "HE",
+		"name": "Belgium",
+		"tax": "0.12",
+		"tax_name": "LEN"
+	},
+	{
+		"code": "LOR",
+		"name": "Peru",
+		"tax": "0.04",
+		"tax_name": "SA"
+	},
+	{
+		"code": "L",
+		"name": "Ireland",
+		"tax": "0.08",
+		"tax_name": "GB"
+	},
+	{
+		"code": "WM",
+		"name": "Poland",
+		"tax": "0.19",
+		"tax_name": "IA"
+	},
+	{
+		"code": "EX",
+		"name": "Spain",
+		"tax": "0.19",
+		"tax_name": "Chungbuk"
+	},
+	{
+		"code": "CR",
+		"name": "Singapore",
+		"tax": "0.07",
+		"tax_name": "SI"
+	},
+	{
+		"code": "E",
+		"name": "Sweden",
+		"tax": "0.08",
+		"tax_name": "U"
+	},
+	{
+		"code": "ANC",
+		"name": "Peru",
+		"tax": "0.10",
+		"tax_name": "CR"
+	},
+	{
+		"code": "PE",
+		"name": "Brazil",
+		"tax": "0.12",
+		"tax_name": "FA"
+	},
+	{
+		"code": "VII",
+		"name": "Chile",
+		"tax": "0.03",
+		"tax_name": "CR"
+	},
+	{
+		"code": "SP",
+		"name": "Brazil",
+		"tax": "0.00",
+		"tax_name": "CL"
+	},
+	{
+		"code": "PY",
+		"name": "India",
+		"tax": "0.01",
+		"tax_name": "DF"
+	},
+	{
+		"code": "KZN",
+		"name": "South Africa",
+		"tax": "0.19",
+		"tax_name": "JUN"
+	},
+	{
+		"code": "SG-01",
+		"name": "Singapore",
+		"tax": "0.18",
+		"tax_name": "IV"
+	},
+	{
+		"code": "RM",
+		"name": "Chile",
+		"tax": "0.13",
+		"tax_name": "BOY"
+	},
+	{
+		"code": "BA",
+		"name": "Spain",
+		"tax": "0.04",
+		"tax_name": "PD"
+	},
+	{
+		"code": "OY",
+		"name": "Nigeria",
+		"tax": "0.07",
+		"tax_name": "F"
+	},
+	{
+		"code": "SI",
+		"name": "New Zealand",
+		"tax": "0.12",
+		"tax_name": "WM"
+	},
+	{
+		"code": "Gaziantep",
+		"name": "Turkey",
+		"tax": "0.04",
+		"tax_name": "CH"
+	},
+	{
+		"code": "CR",
+		"name": "Singapore",
+		"tax": "0.06",
+		"tax_name": "Gto."
+	},
+	{
+		"code": "LX",
+		"name": "Belgium",
+		"tax": "0.02",
+		"tax_name": "JT"
+	},
+	{
+		"code": "Vbg.",
+		"name": "Austria",
+		"tax": "0.09",
+		"tax_name": "SC"
+	},
+	{
+		"code": "KS",
+		"name": "Indonesia",
+		"tax": "0.14",
+		"tax_name": "S.L.P."
+	},
+	{
+		"code": "regionXI",
+		"name": "Philippines",
+		"tax": "0.15",
+		"tax_name": "EC"
+	},
+	{
+		"code": "M",
+		"name": "Ireland",
+		"tax": "0.05",
+		"tax_name": "V"
+	},
+	{
+		"code": "TAS",
+		"name": "Australia",
+		"tax": "0.08",
+		"tax_name": "IM"
+	},
+	{
+		"code": "30",
+		"name": "Norway",
+		"tax": "0.05",
+		"tax_name": "RYA"
+	},
+	{
+		"code": "OY",
+		"name": "Nigeria",
+		"tax": "0.01",
+		"tax_name": "MA"
+	},
+	{
+		"code": "AR",
+		"name": "Spain",
+		"tax": "0.06",
+		"tax_name": "JUN"
+	},
+	{
+		"code": "ANT",
+		"name": "Colombia",
+		"tax": "0.20",
+		"tax_name": "N."
+	},
+	{
+		"code": "BA",
+		"name": "Indonesia",
+		"tax": "0.00",
+		"tax_name": "Sbg."
+	},
+	{
+		"code": "BB",
+		"name": "Germany",
+		"tax": "0.13",
+		"tax_name": "BEL"
+	},
+	{
+		"code": "OÖ.",
+		"name": "Austria",
+		"tax": "0.16",
+		"tax_name": "SI"
+	},
+	{
+		"code": "ZT",
+		"name": "Ukraine",
+		"tax": "0.05",
+		"tax_name": "XIV"
+	},
+	{
+		"code": "SI",
+		"name": "New Zealand",
+		"tax": "0.00",
+		"tax_name": "Gro."
+	},
+	{
+		"code": "IM",
+		"name": "Nigeria",
+		"tax": "0.03",
+		"tax_name": "XIV"
+	},
+	{
+		"code": "TAA",
+		"name": "Italy",
+		"tax": "0.00",
+		"tax_name": "KS"
+	},
+	{
+		"code": "GB",
+		"name": "Pakistan",
+		"tax": "0.14",
+		"tax_name": "regionIV-A"
+	},
+	{
+		"code": "CH",
+		"name": "Ukraine",
+		"tax": "0.11",
+		"tax_name": "CA"
+	},
+	{
+		"code": "Kocaeli",
+		"name": "Turkey",
+		"tax": "0.07",
+		"tax_name": "PU"
+	},
+	{
+		"code": "IL",
+		"name": "United States",
+		"tax": "0.09",
+		"tax_name": "Ktn."
+	},
+	{
+		"code": "Oax.",
+		"name": "Mexico",
+		"tax": "0.08",
+		"tax_name": "NW"
+	},
+	{
+		"code": "BO",
+		"name": "France",
+		"tax": "0.02",
+		"tax_name": "AB"
+	},
+	{
+		"code": "OP",
+		"name": "Poland",
+		"tax": "0.10",
+		"tax_name": "KT"
+	},
+	{
+		"code": "Bgl.",
+		"name": "Austria",
+		"tax": "0.04",
+		"tax_name": "M"
+	},
+	{
+		"code": "LO",
+		"name": "France",
+		"tax": "0.19",
+		"tax_name": "30"
+	},
+	{
+		"code": "mimaropa",
+		"name": "Philippines",
+		"tax": "0.01",
+		"tax_name": "ID"
+	},
+	{
+		"code": "X",
+		"name": "Chile",
+		"tax": "0.02",
+		"tax_name": "E"
+	},
+	{
+		"code": "P",
+		"name": "Costa Rica",
+		"tax": "0.08",
+		"tax_name": "PU"
+	},
+	{
+		"code": "GB",
+		"name": "Pakistan",
+		"tax": "0.10",
+		"tax_name": "Stm."
+	},
+	{
+		"code": "X",
+		"name": "Sweden",
+		"tax": "0.04",
+		"tax_name": "NÖ."
+	},
+	{
+		"code": "AMA",
+		"name": "Colombia",
+		"tax": "0.06",
+		"tax_name": "PM"
+	},
+	{
+		"code": "Saint Petersburg",
+		"name": "Russian Federation",
+		"tax": "0.02",
+		"tax_name": "PM"
+	},
+	{
+		"code": "IVA",
+		"name": "Russian Federation",
+		"tax": "0.09",
+		"tax_name": "KA"
+	},
+	{
+		"code": "03",
+		"name": "Norway",
+		"tax": "0.15",
+		"tax_name": "KY"
+	},
+	{
+		"code": "AK",
+		"name": "Pakistan",
+		"tax": "0.01",
+		"tax_name": "I"
+	},
+	{
+		"code": "XIV",
+		"name": "Chile",
+		"tax": "0.02",
+		"tax_name": "SL"
+	},
+	{
+		"code": "Dr",
+		"name": "Netherlands",
+		"tax": "0.03",
+		"tax_name": "YT"
+	},
+	{
+		"code": "VLA",
+		"name": "Russian Federation",
+		"tax": "0.12",
+		"tax_name": "Gl"
+	},
+	{
+		"code": "G",
+		"name": "Costa Rica",
+		"tax": "0.15",
+		"tax_name": "38"
+	},
+	{
+		"code": "HE",
+		"name": "Belgium",
+		"tax": "0.14",
+		"tax_name": "U"
+	},
+	{
+		"code": "CUN",
+		"name": "Colombia",
+		"tax": "0.17",
+		"tax_name": "WP"
+	},
+	{
+		"code": "C",
+		"name": "Costa Rica",
+		"tax": "0.09",
+		"tax_name": "KN"
+	},
+	{
+		"code": "GO",
+		"name": "Brazil",
+		"tax": "0.11",
+		"tax_name": "KS"
+	},
+	{
+		"code": "H",
+		"name": "Costa Rica",
+		"tax": "0.00",
+		"tax_name": "regionIII"
+	},
+	{
+		"code": "KPK",
+		"name": "Pakistan",
+		"tax": "0.07",
+		"tax_name": "NU"
+	},
+	{
+		"code": "PO",
+		"name": "France",
+		"tax": "0.15",
+		"tax_name": "Yuc."
+	},
+	{
+		"code": "Huáběi",
+		"name": "China",
+		"tax": "0.03",
+		"tax_name": "Hatay"
+	},
+	{
+		"code": "regionXIII",
+		"name": "Philippines",
+		"tax": "0.06",
+		"tax_name": "AL"
+	},
+	{
+		"code": "C",
+		"name": "Costa Rica",
+		"tax": "0.04",
+		"tax_name": "M"
+	},
+	{
+		"code": "Hatay",
+		"name": "Turkey",
+		"tax": "0.07",
+		"tax_name": "SG-02"
+	},
+	{
+		"code": "MO",
+		"name": "United States",
+		"tax": "0.13",
+		"tax_name": "ARE"
+	},
+	{
+		"code": "AK",
+		"name": "Pakistan",
+		"tax": "0.11",
+		"tax_name": "Ktn."
+	},
+	{
+		"code": "EC",
+		"name": "South Africa",
+		"tax": "0.10",
+		"tax_name": "BE"
+	},
+	{
+		"code": "NC",
+		"name": "South Africa",
+		"tax": "0.06",
+		"tax_name": "LU"
+	},
+	{
+		"code": "AR",
+		"name": "United States",
+		"tax": "0.02",
+		"tax_name": "LIM"
+	},
+	{
+		"code": "CR",
+		"name": "Singapore",
+		"tax": "0.14",
+		"tax_name": "SJ"
+	},
+	{
+		"code": "LOR",
+		"name": "Peru",
+		"tax": "0.13",
+		"tax_name": "Gaziantep"
+	},
+	{
+		"code": "SAR",
+		"name": "Italy",
+		"tax": "0.10",
+		"tax_name": "CR"
+	},
+	{
+		"code": "30",
+		"name": "Norway",
+		"tax": "0.09",
+		"tax_name": "Ktn."
+	},
+	{
+		"code": "WV",
+		"name": "Belgium",
+		"tax": "0.19",
+		"tax_name": "BU"
+	},
+	{
+		"code": "42",
+		"name": "Norway",
+		"tax": "0.04",
+		"tax_name": "IV"
+	},
+	{
+		"code": "NB",
+		"name": "Canada",
+		"tax": "0.20",
+		"tax_name": "ABR"
+	},
+	{
+		"code": "KY",
+		"name": "United States",
+		"tax": "0.05",
+		"tax_name": "CH"
+	},
+	{
+		"code": "Z.",
+		"name": "Netherlands",
+		"tax": "0.00",
+		"tax_name": "SG-01"
+	},
+	{
+		"code": "SG-01",
+		"name": "Singapore",
+		"tax": "0.19",
+		"tax_name": "PU"
+	},
+	{
+		"code": "Gl",
+		"name": "Netherlands",
+		"tax": "0.06",
+		"tax_name": "LAG"
+	},
+	{
+		"code": "LU",
+		"name": "Belgium",
+		"tax": "0.11",
+		"tax_name": "PNZ"
+	},
+	{
+		"code": "U.",
+		"name": "Netherlands",
+		"tax": "0.09",
+		"tax_name": "MP"
+	}
+]
