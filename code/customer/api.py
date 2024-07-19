@@ -1,9 +1,6 @@
 from typing import List
-from ninja import NinjaAPI, Query
+from ninja import Router
 from django.http import HttpResponse
-
-from ninja_simple_jwt.auth.views.api import mobile_auth_router
-from ninja_simple_jwt.auth.ninja_auth import HttpJwtAuth
 
 from django.contrib.auth.models import User
 from customer.models import Customer, Address
@@ -12,17 +9,15 @@ from customer.schemas import CustomerIn, CustomerInUpdate, CustomerRespon, Addre
 
 from typing import Optional
 
-api = NinjaAPI()
-api.add_router("/auth/", mobile_auth_router)
-apiAuth = HttpJwtAuth()
+router = Router()
 
-@api.get("hello")
+@router.get("hello")
 def helloWorld(request):
     return {"Hello": "World"}
 
 # CUSTOMER
 
-@api.post("customers.json", auth=apiAuth, response=SingleCustomerRespon)
+@router.post("customers.json", response=SingleCustomerRespon)
 def addCustomer(request, data:CustomerIn):
     user = User.objects.create_user(username=data.email,
                                     email=data.email,
@@ -55,7 +50,7 @@ def addCustomer(request, data:CustomerIn):
     
     return {"customer": newCustomer}
 
-@api.put("customers/{id_cust}.json", auth=apiAuth, response=SingleCustomerRespon)
+@router.put("customers/{id_cust}.json", response=SingleCustomerRespon)
 def updateCustomer(request, id_cust:int, data:CustomerInUpdate):
 
     try:
@@ -80,26 +75,26 @@ def updateCustomer(request, id_cust:int, data:CustomerInUpdate):
     
     return {"customer": customer}
 
-@api.get("customers.json", auth=apiAuth, response=CustomerRespon)
+@router.get("customers.json", response=CustomerRespon)
 def getAllCustomer(request, ids:str):
     int_ids = ids.split(',')
     customers = Customer.objects.filter(id__in=int_ids)
     
     return {"customers": customers}
 
-@api.get("customers/{id_cust}.json", auth=apiAuth, response=SingleCustomerRespon)
+@router.get("customers/{id_cust}.json", response=SingleCustomerRespon)
 def getSingleCustomer(request, id_cust:str):
     customer = Customer.objects.get(pk=id_cust)
     
     return {"customer": customer}
 
-@api.get("customers/count/count.json", auth=apiAuth, response=CountCustomer)
+@router.get("customers/count/count.json", response=CountCustomer)
 def count_customers(request):
     customer_count = Customer.objects.count()
     
     return {"count": customer_count}
 
-@api.get("customers/query/search.json", auth=apiAuth, response=CustomerRespon)
+@router.get("customers/query/search.json", response=CustomerRespon)
 def getQueryCustomer(request, query: str):
     customers = Customer.objects.all()
     filters = parse_query(query)
@@ -133,7 +128,7 @@ def getQueryCustomer(request, query: str):
 
     return {"customers": customers}
 
-@api.delete("customers/{id_cust}.json", auth=apiAuth)
+@router.delete("customers/{id_cust}.json")
 def deleteCustomer(request, id_cust:int):
     try:
         customer = Customer.objects.get(pk=id_cust)
@@ -151,7 +146,7 @@ def deleteCustomer(request, id_cust:int):
 
 # ADDRESS
 
-@api.get("customers/{id_cust}/addresses.json", auth=apiAuth, response=AddressesRespon)
+@router.get("customers/{id_cust}/addresses.json", response=AddressesRespon)
 def getAllAddresses(request, id_cust:int, limit: Optional[int] = None):
     customer = Customer.objects.get(pk=id_cust)
 
@@ -162,7 +157,7 @@ def getAllAddresses(request, id_cust:int, limit: Optional[int] = None):
     
     return {"addresses": addresses}
 
-@api.get("customers/{id_cust}/addresses/{id_address}.json", auth=apiAuth, response=AddressRespon)
+@router.get("customers/{id_cust}/addresses/{id_address}.json", response=AddressRespon)
 def getSingleAddressCustomer(request, id_cust:int, id_address:int):
     customer = Customer.objects.get(pk=id_cust)
 
@@ -170,7 +165,7 @@ def getSingleAddressCustomer(request, id_cust:int, id_address:int):
     
     return {"customer_address": address}
 
-@api.post("customers/{id_cust}/addresses.json", auth=apiAuth, response=AddressRespon)
+@router.post("customers/{id_cust}/addresses.json", response=AddressRespon)
 def  addAddress(request, id_cust:int, data:AddressIn):
     customer = Customer.objects.get(pk=id_cust)
 
@@ -186,7 +181,7 @@ def  addAddress(request, id_cust:int, data:AddressIn):
     
     return {"customer_address": newAddress}
 
-@api.put("customers/{id_cust}/addresses/{id_address}.json", auth=apiAuth, response=AddressRespon)
+@router.put("customers/{id_cust}/addresses/{id_address}.json", response=AddressRespon)
 def updateAddress(request, id_cust:int, id_address:int, data:AddressIn):
 
     try:
@@ -209,7 +204,7 @@ def updateAddress(request, id_cust:int, id_address:int, data:AddressIn):
     
     return {"customer_address": address}
 
-@api.put("customers/{id_cust}/addresses/{id_address}/default.json", auth=apiAuth, response=AddressRespon)
+@router.put("customers/{id_cust}/addresses/{id_address}/default.json", response=AddressRespon)
 def setDefaultAddress(request, id_cust:int, id_address:int):
     address = Address.objects.get(pk=id_address)
     address.default=True
@@ -222,7 +217,7 @@ def setDefaultAddress(request, id_cust:int, id_address:int):
     
     return {"customer_address": [address]}
 
-@api.delete("customers/{id_cust}/addresses/{id_address}.json", auth=apiAuth)
+@router.delete("customers/{id_cust}/addresses/{id_address}.json")
 def deleteAddress(request, id_cust:int, id_address:int):
     customer = Customer.objects.get(pk=id_cust)
 

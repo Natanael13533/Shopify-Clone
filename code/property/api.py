@@ -1,19 +1,13 @@
-from typing import List
-from ninja import NinjaAPI
+from ninja import Router
 from django.http import HttpResponse
-
-from ninja_simple_jwt.auth.views.api import mobile_auth_router
-from ninja_simple_jwt.auth.ninja_auth import HttpJwtAuth
 
 from property.models import Country, Province
 from property.schemas import ProvincesRespon, ProvinceRespon, CountProvinces, ProvinceIn, CountryIn, CountryRespon, CountriesRespon, CountCountries
 
-apiProp = NinjaAPI()
-apiProp.add_router("/auth/", mobile_auth_router)
-apiAuth = HttpJwtAuth()
+router = Router()
 
 # PROVINCE
-@apiProp.get("countries/{id_coun}/provinces.json", auth=apiAuth, response=ProvincesRespon)
+@router.get("countries/{id_coun}/provinces.json", response=ProvincesRespon)
 def getAllProvinces(request, id_coun:int):
     country = Country.objects.get(pk=id_coun)
 
@@ -21,7 +15,7 @@ def getAllProvinces(request, id_coun:int):
     
     return {"provinces": provinces}
 
-@apiProp.get("countries/{id_coun}/provinces/{id_prov}.json", auth=apiAuth, response=ProvinceRespon)
+@router.get("countries/{id_coun}/provinces/{id_prov}.json", response=ProvinceRespon)
 def getSingleProvince(request, id_coun:int, id_prov:int):
     country = Country.objects.get(pk=id_coun)
 
@@ -29,7 +23,7 @@ def getSingleProvince(request, id_coun:int, id_prov:int):
     
     return {"province": province}
 
-@apiProp.get("countries/{id_coun}/provinces/count/count.json", auth=apiAuth, response=CountProvinces)
+@router.get("countries/{id_coun}/provinces/count/count.json", response=CountProvinces)
 def count_provinces(request, id_coun:int):
     country = Country.objects.get(pk=id_coun)
 
@@ -37,7 +31,7 @@ def count_provinces(request, id_coun:int):
     
     return {"count": countProv}
 
-@apiProp.put("countries/{id_coun}/provinces/{id_prov}.json", auth=apiAuth, response=ProvinceRespon)
+@router.put("countries/{id_coun}/provinces/{id_prov}.json", response=ProvinceRespon)
 def updateProvince(request, id_coun:int, id_prov:int, data:ProvinceIn):
 
     try:
@@ -57,7 +51,7 @@ def updateProvince(request, id_coun:int, id_prov:int, data:ProvinceIn):
     
     return {"province": province}
 
-@apiProp.post("countries.json", auth=apiAuth, response=CountryRespon)
+@router.post("countries.json", response=CountryRespon)
 def addCountry(request, data:CountryIn):
     newCountry = Country.objects.create(code=data.code,
                                         name=data.name,
@@ -77,25 +71,25 @@ def addCountry(request, data:CountryIn):
     
     return {"country" : newCountry}
 
-@apiProp.get("countries.json", auth=apiAuth, response=CountriesRespon)
+@router.get("countries.json", response=CountriesRespon)
 def getAllCountries(request):
     countries = Country.objects.all()
 
     return {"countries" : countries}
 
-@apiProp.get("countries/{id_coun}.json", auth=apiAuth, response=CountryRespon)
+@router.get("countries/{id_coun}.json", response=CountryRespon)
 def getSingleCountries(request, id_coun:int):
     country = Country.objects.get(pk=id_coun)
 
     return {"country" : country}
 
-@apiProp.get("countries/count/count.json", auth=apiAuth, response=CountCountries)
+@router.get("countries/count/count.json", response=CountCountries)
 def count_countries(request):
     country = Country.objects.count()
     
     return {"count": country}
 
-@apiProp.put("countries/{id_coun}.json", auth=apiAuth, response=CountryRespon)
+@router.put("countries/{id_coun}.json", response=CountryRespon)
 def updateCountry(request, id_coun:int, data:CountryIn):
 
     try:
@@ -113,7 +107,7 @@ def updateCountry(request, id_coun:int, data:CountryIn):
     
     return {"country": country}
 
-@apiProp.delete("countries/{id_coun}.json", auth=apiAuth)
+@router.delete("countries/{id_coun}.json")
 def deleteCountry(request, id_coun:int):
     country = Country.objects.get(pk=id_coun)
 
