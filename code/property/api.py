@@ -73,7 +73,7 @@ def addCountry(request, data:CountryIn):
 
 @router.get("countries.json", response=CountriesRespon)
 def getAllCountries(request):
-    countries = Country.objects.all()
+    countries = Country.objects.all().prefetch_related('province_set')
 
     return {"countries" : countries}
 

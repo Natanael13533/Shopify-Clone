@@ -15,10 +15,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from shopify.api import api
 
 urlpatterns = [
     path('admin/api/2024-04/', api.urls),
     path('web-admin/', admin.site.urls),
 ]
+urlpatterns += [path('silk/', include('silk.urls', namespace='silk'))]

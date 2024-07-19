@@ -175,6 +175,7 @@ def  addAddress(request, id_cust:int, data:AddressIn):
                            city=data.city,
                            province=data.province,
                            company=data.company,
+                           country=data.country,
                            phone=data.phone,
                            zip=data.zip,
                            default=data.default)
@@ -215,7 +216,7 @@ def setDefaultAddress(request, id_cust:int, id_address:int):
         data.default=False
         data.save()
     
-    return {"customer_address": [address]}
+    return {"customer_address": address}
 
 @router.delete("customers/{id_cust}/addresses/{id_address}.json")
 def deleteAddress(request, id_cust:int, id_address:int):
